@@ -47,7 +47,7 @@ const ManageUsersPage = () => {
     axios
       .delete(
         `${Config.SERVER_URL + "admin/users/" + userId}`,
-        // ,`http://localhost:8080/admin/users/${userId}`
+        // ,`https://job-portal-38uy.onrender.com/admin/users/${userId}`
         {
           headers: {
             Authorization: "Bearer " + token,
